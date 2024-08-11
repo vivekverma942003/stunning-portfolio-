@@ -4,13 +4,14 @@ import pic1 from "../../assets/C5.jpg";
 import pic2 from "../../assets/C6.jpg";
 import pic3 from "../../assets/C4.jpg";
 import pic4 from "../../assets/C1.jpg";
-import {Pagination } from 'swiper';
-
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
+import { Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css'; // Import Swiper styles
+
+import 'swiper/css/pagination'
 
 const Ghar = [
   {
